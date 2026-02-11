@@ -2,7 +2,7 @@
 
 A simple Go HTTP server template ready for development in a devcontainer environment.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Running the Application
 
@@ -19,13 +19,13 @@ go build -o app
 
 The server will start on `http://localhost:8080`
 
-## 📋 Available Endpoints
+##  Available Endpoints
 
 - **GET /** - Home page with API documentation
 - **GET /api/hello** - Returns a JSON greeting
 - **GET /api/health** - Health check endpoint
 
-## 🛠️ Development
+##  Development
 
 ### Adding Dependencies
 
@@ -60,7 +60,7 @@ go fmt ./...
 go vet ./...
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 go/
@@ -70,7 +70,7 @@ go/
 └── README.md        # This file
 ```
 
-## 🔧 Common Go Commands
+##  Common Go Commands
 
 ```bash
 # Initialize a new module
@@ -90,7 +90,7 @@ go install golang.org/x/tools/gopls@latest
 go install github.com/go-delve/delve/cmd/dlv@latest
 ```
 
-## 🎯 Building for Production
+##  Building for Production
 
 ```bash
 # Build for current platform
@@ -106,14 +106,14 @@ GOOS=windows GOARCH=amd64 go build -o app.exe
 go build -ldflags="-s -w" -o app
 ```
 
-## 📚 Useful Resources
+##  Useful Resources
 
 - [Go Documentation](https://golang.org/doc/)
 - [Effective Go](https://golang.org/doc/effective_go)
 - [Go by Example](https://gobyexample.com/)
 - [Go Standard Library](https://pkg.go.dev/std)
 
-## 💡 Tips
+##  Tips
 
 - Use `go fmt` to automatically format your code
 - Run `go vet` to catch common errors
@@ -122,7 +122,7 @@ go build -ldflags="-s -w" -o app
 - Use interfaces for better testability
 - Follow the [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 
-## 🐛 Debugging
+##  Debugging
 
 The delve debugger (`dlv`) is pre-installed in the devcontainer:
 
@@ -137,7 +137,7 @@ dlv debug -- --port=3000
 dlv attach <pid>
 ```
 
-## 🌐 Environment Variables
+##  Environment Variables
 
 Set environment variables to configure the application:
 
@@ -147,7 +147,7 @@ export PORT=3000
 go run main.go
 ```
 
-## 📝 Next Steps
+##  Next Steps
 
 1. Edit `main.go` to add your own routes and handlers
 2. Create additional packages for organizing your code
@@ -156,4 +156,4 @@ go run main.go
 5. Add middleware for logging, authentication, etc.
 6. Consider using a router like [gorilla/mux](https://github.com/gorilla/mux) or [chi](https://github.com/go-chi/chi)
 
-Happy coding! 🎉
+Happy coding! 

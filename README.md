@@ -2,7 +2,7 @@
 
 A comprehensive collection of development environment templates with support for **Next.js**, **Go**, **Python**, and **Laravel** stacks. This repository uses devcontainer variants, allowing you to choose your preferred development stack when opening the project in VS Code or Zed.
 
-## 🚀 Features
+##  Features
 
 - **Multiple Development Stacks**: Choose from Next.js (with shadcn/ui), Go, Python, or Laravel
 - **Variant Selection**: Pick your stack when opening in VS Code or Zed
@@ -11,7 +11,7 @@ A comprehensive collection of development environment templates with support for
 - **Fast Setup**: Automated dependency installation and configuration
 - **IDE Optimized**: Pre-configured extensions and settings for each stack
 
-## 📦 Available Templates
+##  Available Templates
 
 ### Next.js + shadcn/ui + Tailwind CSS
 - **Runtime**: Node.js 20 with Bun package manager
@@ -40,7 +40,7 @@ A comprehensive collection of development environment templates with support for
 - **Tools**: Composer, NPM, Laravel installer
 - **Port**: 8000
 
-## 🎯 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -154,7 +154,7 @@ devcontainer-templates/
     └── README.md                  # Laravel-specific documentation
 ```
 
-## 🔧 Quick Start Commands
+##  Quick Start Commands
 
 ### Next.js Template
 
@@ -192,7 +192,7 @@ php artisan serve                  # Start dev server
 php artisan migrate                # Run migrations
 ```
 
-## 🎨 Customization
+##  Customization
 
 ### Adding New Routes/Endpoints
 
@@ -218,7 +218,7 @@ Edit `.devcontainer/devcontainer.json` to:
 - Modify environment variables
 - Adjust variant configurations
 
-## 🌟 Using as a Template
+##  Using as a Template
 
 This repository is designed to be a GitHub template:
 
@@ -229,7 +229,7 @@ This repository is designed to be a GitHub template:
 5. Select your preferred variant
 6. Start building!
 
-## 📚 Documentation
+##  Documentation
 
 Each template includes its own detailed README:
 
@@ -238,15 +238,15 @@ Each template includes its own detailed README:
 - [Python Template Guide](./python/README.md)
 - [Laravel Template Guide](./laravel/README.md)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🔗 Useful Links
+##  Useful Links
 
 ### Next.js Resources
 - [Next.js Documentation](https://nextjs.org/docs)
@@ -274,7 +274,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - [Devcontainer Specification](https://containers.dev/)
 - [Zed Devcontainer Support](https://zed.dev/docs/remote-development)
 
-## 💡 Tips
+##  Tips
 
 - **Switching Variants**: Close the workspace, delete `.devcontainer/.devcontainer.json` if it exists, and reopen to select a different variant
 - **Port Conflicts**: If ports are already in use, modify the `forwardPorts` in `.devcontainer/devcontainer.json`
@@ -297,6 +297,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - Stop other services using the same port
 - Change the port in the setup or configuration files
 
-## 🎉 Happy Coding!
+##  Happy Coding!
 
 Choose your stack, spin up your devcontainer, and start building amazing projects!

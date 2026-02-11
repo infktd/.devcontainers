@@ -2,7 +2,7 @@
 
 A simple Flask API server template ready for development in a devcontainer environment.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Setting Up the Environment
 
@@ -32,14 +32,14 @@ PORT=8000 python main.py
 
 The server will start on `http://localhost:5000`
 
-## 📋 Available Endpoints
+##  Available Endpoints
 
 - **GET /** - Home page with API documentation
 - **GET /api/hello** - Returns a JSON greeting
 - **GET /api/health** - Health check endpoint
 - **GET /api/time** - Returns current server time
 
-## 🛠️ Development
+##  Development
 
 ### Installing Dependencies
 
@@ -86,7 +86,7 @@ mypy main.py
 pylint main.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 python/
@@ -96,7 +96,7 @@ python/
 └── README.md           # This file
 ```
 
-## 🔧 Common Commands
+##  Common Commands
 
 ```bash
 # Activate virtual environment
@@ -118,7 +118,7 @@ pip show package-name
 pip uninstall package-name
 ```
 
-## 🎯 Building for Production
+##  Building for Production
 
 ```bash
 # Run with Gunicorn (production WSGI server)
@@ -131,14 +131,14 @@ gunicorn --reload -w 4 -b 0.0.0.0:5000 main:app
 gunicorn -w $(nproc) -b 0.0.0.0:5000 main:app
 ```
 
-## 📚 Useful Resources
+##  Useful Resources
 
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [Python Documentation](https://docs.python.org/3/)
 - [Real Python Tutorials](https://realpython.com/)
 - [Python Package Index (PyPI)](https://pypi.org/)
 
-## 💡 Tips
+##  Tips
 
 - Always use a virtual environment to isolate dependencies
 - Use `.env` files for environment variables (with python-dotenv)
@@ -147,7 +147,7 @@ gunicorn -w $(nproc) -b 0.0.0.0:5000 main:app
 - Use type hints for better code clarity
 - Add tests for new features
 
-## 🐛 Debugging
+##  Debugging
 
 ```bash
 # Run with Python debugger
@@ -161,7 +161,7 @@ pip install ipython
 ipython
 ```
 
-## 🌐 Environment Variables
+##  Environment Variables
 
 Create a `.env` file for environment variables:
 
@@ -180,7 +180,7 @@ from dotenv import load_dotenv
 load_dotenv()
 ```
 
-## 📝 Next Steps
+##  Next Steps
 
 1. Edit `main.py` to add your own routes and logic
 2. Create a `tests/` directory and add test files
@@ -190,7 +190,7 @@ load_dotenv()
 6. Integrate with a database (PostgreSQL, MongoDB, etc.)
 7. Add API documentation with Swagger/OpenAPI
 
-## 🔐 Security Best Practices
+##  Security Best Practices
 
 - Never commit `.env` files or secrets
 - Use environment variables for sensitive data
@@ -199,4 +199,4 @@ load_dotenv()
 - Implement rate limiting
 - Keep dependencies up to date
 
-Happy coding! 🎉
+Happy coding! 

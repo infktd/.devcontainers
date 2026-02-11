@@ -2,7 +2,7 @@
 
 Get up and running with your development environment in minutes!
 
-## 🎯 Choose Your Stack
+##  Choose Your Stack
 
 This repository supports four development stacks:
 - **Next.js + shadcn/ui** - Modern React applications
@@ -10,7 +10,7 @@ This repository supports four development stacks:
 - **Python** - Web applications and scripting
 - **Laravel** - PHP web applications and APIs
 
-## 📋 Prerequisites
+##  Prerequisites
 
 1. **Install Docker Desktop**
    - [Mac](https://docs.docker.com/desktop/install/mac-install/)
@@ -24,7 +24,7 @@ This repository supports four development stacks:
    **OR Install Zed**
    - Download from [zed.dev](https://zed.dev/)
 
-## 🚀 3-Minute Setup
+##  3-Minute Setup
 
 ### Step 1: Get the Code
 
@@ -68,7 +68,7 @@ The container will:
 
 Your environment is ready. Follow the instructions below for your chosen stack.
 
-## 🎨 Next.js Quick Start
+##  Next.js Quick Start
 
 ```bash
 cd nextjs-shadcn
@@ -92,7 +92,7 @@ export default function Page() {
 }
 ```
 
-## 🔵 Go Quick Start
+##  Go Quick Start
 
 ```bash
 cd go
@@ -112,7 +112,7 @@ go get github.com/gorilla/mux
 go mod tidy
 ```
 
-## 🐍 Python Quick Start
+##  Python Quick Start
 
 ```bash
 cd python
@@ -136,7 +136,7 @@ pip install package-name
 pip freeze > requirements.txt
 ```
 
-## 🟠 Laravel Quick Start
+##  Laravel Quick Start
 
 ```bash
 cd laravel
@@ -158,7 +158,7 @@ Route::get('/api/users', [UserController::class, 'index']);
 composer require package/name
 ```
 
-## 🔄 Switching Variants
+##  Switching Variants
 
 Want to try a different stack?
 
@@ -167,7 +167,7 @@ Want to try a different stack?
 3. Reopen the project
 4. Select a different variant
 
-## 💡 Pro Tips
+##  Pro Tips
 
 ### Faster Rebuilds
 ```bash
@@ -195,7 +195,7 @@ export DEVCONTAINER_VARIANT=nextjs-shadcn
 code .
 ```
 
-## 🐛 Common Issues
+##  Common Issues
 
 ### Docker Not Running
 ```bash
@@ -231,23 +231,23 @@ bash .devcontainer/setup-go.sh
 bash .devcontainer/setup-python.sh
 ```
 
-## 📚 Next Steps
+##  Next Steps
 
-1. ✅ Complete this quick start
+1.  Complete this quick start
 2. 📖 Read the [main README](README.md)
-3. 🔧 Explore your template's README:
+3.  Explore your template's README:
    - [Next.js README](nextjs-shadcn/README.md)
    - [Go README](go/README.md)
    - [Python README](python/README.md)
-4. 🚀 Build something awesome!
+4.  Build something awesome!
 
-## 🆘 Need Help?
+##  Need Help?
 
 - 📖 Read the [full documentation](README.md)
-- 🐛 [Report an issue](https://github.com/yourusername/devcontainer-templates/issues)
-- 💬 [Start a discussion](https://github.com/yourusername/devcontainer-templates/discussions)
+-  [Report an issue](https://github.com/yourusername/devcontainer-templates/issues)
+-  [Start a discussion](https://github.com/yourusername/devcontainer-templates/discussions)
 
-## ⚡ Quick Reference
+##  Quick Reference
 
 | Stack | Port | Dev Command | Build Command |
 |-------|------|-------------|---------------|
@@ -256,4 +256,4 @@ bash .devcontainer/setup-python.sh
 | Python | 5000 | `python main.py` | N/A |
 | Laravel | 8000 | `php artisan serve` | N/A |
 
-Happy coding! 🎉
+Happy coding! 

@@ -2,7 +2,7 @@
 
 A complete Laravel development environment ready for building modern web applications in a devcontainer.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Install Dependencies
 
@@ -39,7 +39,7 @@ npm run dev
 
 Open [http://localhost:8000](http://localhost:8000) in your browser.
 
-## 📦 What's Included
+##  What's Included
 
 - **Laravel 11** - Latest version of the PHP framework
 - **PHP 8.2** - Modern PHP with performance improvements
@@ -50,7 +50,7 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 - **Laravel Sanctum** - API authentication
 - **Laravel Tinker** - Powerful REPL
 
-## 🎨 Frontend Stack
+##  Frontend Stack
 
 Laravel comes with Vite for asset compilation:
 
@@ -65,7 +65,7 @@ npm run dev
 npm run build
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 laravel/
@@ -94,7 +94,7 @@ laravel/
 └── .env.example            # Environment template
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Artisan Commands
 
@@ -154,7 +154,7 @@ php artisan make:request StorePostRequest
 php artisan make:middleware CheckAge
 ```
 
-## 🗄️ Database
+##  Database
 
 ### SQLite (Default)
 
@@ -223,7 +223,7 @@ $posts = Post::all();
 $post = Post::find(1);
 ```
 
-## 🔌 Routing
+##  Routing
 
 ### Web Routes
 
@@ -249,7 +249,7 @@ Route::get('/posts', [PostController::class, 'index']);
 Route::post('/posts', [PostController::class, 'store']);
 ```
 
-## 🎨 Blade Templates
+##  Blade Templates
 
 ```php
 <!-- resources/views/welcome.blade.php -->
@@ -266,7 +266,7 @@ Route::post('/posts', [PostController::class, 'store']);
 </html>
 ```
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -285,7 +285,7 @@ php artisan make:test UserTest
 php artisan make:test UserTest --feature
 ```
 
-## 📝 Environment Variables
+##  Environment Variables
 
 Copy `.env.example` to `.env` and configure:
 
@@ -309,7 +309,7 @@ QUEUE_CONNECTION=database
 SESSION_DRIVER=database
 ```
 
-## 🔐 Authentication
+##  Authentication
 
 Laravel provides built-in authentication:
 
@@ -327,7 +327,7 @@ npm install && npm run dev
 php artisan migrate
 ```
 
-## 📊 Queue & Jobs
+##  Queue & Jobs
 
 ```bash
 # Create a job
@@ -343,7 +343,7 @@ php artisan queue:failed
 php artisan queue:retry all
 ```
 
-## 📧 Email
+##  Email
 
 ```php
 // Send email
@@ -356,7 +356,7 @@ Mail::to('user@example.com')->send(new WelcomeMail());
 php artisan make:mail WelcomeMail
 ```
 
-## 🔧 Code Quality
+##  Code Quality
 
 ### Laravel Pint (Code Style)
 
@@ -378,7 +378,7 @@ php artisan test
 php artisan test --coverage
 ```
 
-## 📚 Useful Resources
+##  Useful Resources
 
 - [Laravel Documentation](https://laravel.com/docs)
 - [Laracasts (Video Tutorials)](https://laracasts.com)
@@ -386,7 +386,7 @@ php artisan test --coverage
 - [Laravel Daily](https://laraveldaily.com)
 - [Awesome Laravel](https://github.com/chiraggude/awesome-laravel)
 
-## 💡 Tips & Best Practices
+##  Tips & Best Practices
 
 ### Performance
 
@@ -419,7 +419,7 @@ php artisan test --coverage
 - Index frequently queried columns
 - Use transactions for data consistency
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Clear Cache
 
@@ -454,7 +454,7 @@ chmod -R 775 storage bootstrap/cache
 - Check `.htaccess` in public directory
 - Ensure `public` is the document root
 
-## 🚀 Deployment
+##  Deployment
 
 ### Production Optimization
 
@@ -497,7 +497,7 @@ APP_URL=https://yourdomain.com
 - Tokenizer PHP Extension
 - XML PHP Extension
 
-## 📝 Next Steps
+##  Next Steps
 
 1. Set up your database in `.env`
 2. Create your first model and migration
@@ -507,7 +507,7 @@ APP_URL=https://yourdomain.com
 6. Write tests for your features
 7. Deploy to production
 
-## 🎉 Popular Packages
+##  Popular Packages
 
 ```bash
 # API Resources
@@ -529,4 +529,4 @@ composer require maatwebsite/excel
 composer require intervention/image
 ```
 
-Happy coding with Laravel! 🎉
+Happy coding with Laravel! 

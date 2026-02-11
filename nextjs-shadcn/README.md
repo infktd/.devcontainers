@@ -2,7 +2,7 @@
 
 A modern Next.js template with TypeScript, Tailwind CSS, and shadcn/ui components, powered by Bun.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Install Dependencies
 
@@ -25,7 +25,7 @@ bun run build
 bun run start
 ```
 
-## 📦 What's Included
+##  What's Included
 
 - **Next.js 14** - React framework with App Router
 - **TypeScript** - Type-safe development
@@ -35,7 +35,7 @@ bun run start
 - **ESLint** - Code linting
 - **PostCSS** - CSS processing
 
-## 🎨 Adding shadcn/ui Components
+##  Adding shadcn/ui Components
 
 shadcn/ui components are added on-demand. To add a component:
 
@@ -61,7 +61,7 @@ export default function MyPage() {
 }
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 nextjs-shadcn/
@@ -85,7 +85,7 @@ nextjs-shadcn/
 └── .env.example
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Available Scripts
 
@@ -145,7 +145,7 @@ function MyComponent({ className }: { className?: string }) {
 }
 ```
 
-## 🎨 Styling
+##  Styling
 
 ### Tailwind CSS
 
@@ -188,7 +188,7 @@ Enable dark mode by adding the `dark` class to the `<html>` element:
 
 Or implement a theme toggle using shadcn/ui's theme provider.
 
-## 🔌 API Routes
+##  API Routes
 
 Create API routes in `src/app/api/`:
 
@@ -201,7 +201,7 @@ export async function GET() {
 }
 ```
 
-## 🌐 Environment Variables
+##  Environment Variables
 
 1. Copy `.env.example` to `.env.local`:
    ```bash
@@ -220,7 +220,7 @@ export async function GET() {
    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
    ```
 
-## 📚 Useful Resources
+##  Useful Resources
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Next.js Learn](https://nextjs.org/learn)
@@ -229,7 +229,7 @@ export async function GET() {
 - [Bun Documentation](https://bun.sh/docs)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 
-## 💡 Tips & Best Practices
+##  Tips & Best Practices
 
 ### Performance
 
@@ -258,7 +258,7 @@ export async function GET() {
 - Enable strict mode for better type safety
 - Leverage type inference when possible
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Port Already in Use
 
@@ -289,7 +289,7 @@ bun run type-check
 3. Verify `globals.css` imports `@tailwind` directives
 4. Clear `.next` folder: `rm -rf .next`
 
-## 🚀 Deployment
+##  Deployment
 
 ### Vercel (Recommended)
 
@@ -322,7 +322,7 @@ CMD ["bun", "run", "start"]
 - [AWS Amplify](https://docs.amplify.aws/guides/hosting/nextjs/)
 - [Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/nextjs/)
 
-## 📝 Next Steps
+##  Next Steps
 
 1. Customize the home page in `src/app/page.tsx`
 2. Add shadcn/ui components you need
@@ -332,4 +332,4 @@ CMD ["bun", "run", "start"]
 6. Configure environment variables
 7. Deploy to production
 
-Happy coding! 🎉
+Happy coding! 

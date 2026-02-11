@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to this project! This document provides guidelines and instructions for contributing.
 
-## 🤝 How to Contribute
+##  How to Contribute
 
 ### Reporting Issues
 
@@ -67,7 +67,7 @@ We welcome suggestions for:
    - Ensure all tests pass
    - Request review from maintainers
 
-## 🏗️ Adding a New Variant
+##  Adding a New Variant
 
 To add a new development stack variant:
 
@@ -134,7 +134,7 @@ Create `.devcontainer/setup-ruby.sh`:
 #!/bin/bash
 set -e
 
-echo "🚀 Setting up Ruby development environment..."
+echo " Setting up Ruby development environment..."
 
 cd /workspace/ruby
 
@@ -143,14 +143,14 @@ if ! command -v ruby &> /dev/null; then
     exit 1
 fi
 
-echo "✅ Ruby version: $(ruby --version)"
+echo " Ruby version: $(ruby --version)"
 
 # Install bundler
 gem install bundler
 
 # Install dependencies if Gemfile exists
 if [ -f "Gemfile" ]; then
-    echo "📦 Installing dependencies..."
+    echo " Installing dependencies..."
     bundle install
 else
     echo "⚠️  No Gemfile found."
@@ -158,7 +158,7 @@ fi
 
 git config --global --add safe.directory /workspace
 
-echo "✨ Ruby development environment setup complete!"
+echo " Ruby development environment setup complete!"
 ```
 
 Make it executable:
@@ -198,7 +198,7 @@ ruby/
    - Development server starts
    - All tools work as expected
 
-## 📝 Code Style Guidelines
+##  Code Style Guidelines
 
 ### Shell Scripts
 - Use `#!/bin/bash` shebang
@@ -219,7 +219,7 @@ ruby/
 - Keep formatting consistent
 - Update table of contents if needed
 
-## 🧪 Testing
+##  Testing
 
 Before submitting a PR:
 
@@ -230,7 +230,7 @@ Before submitting a PR:
 5. **Verify IDE extensions** are installed and working
 6. **Test with both VS Code and Zed** (if possible)
 
-## 📋 Checklist for Pull Requests
+##  Checklist for Pull Requests
 
 - [ ] Code follows the project's style guidelines
 - [ ] Changes have been tested in a devcontainer
@@ -241,7 +241,7 @@ Before submitting a PR:
 - [ ] New dependencies are documented
 - [ ] README includes usage examples
 
-## 🎯 Areas We'd Love Help With
+##  Areas We'd Love Help With
 
 - **Additional Variants**: Ruby, Rust, Java, PHP, etc.
 - **Testing**: Automated tests for setup scripts
@@ -250,7 +250,7 @@ Before submitting a PR:
 - **Features**: New tools, extensions, or configurations
 - **Bug Fixes**: Any issues you encounter
 
-## 💬 Questions?
+##  Questions?
 
 If you have questions about contributing:
 
